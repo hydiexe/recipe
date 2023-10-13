@@ -6,6 +6,7 @@
 <script>
 import RecipeList from "../../components/recipe/RecipeList.vue";
 export default {
+  middleware: ["auth", "check-auth"],
   data() {
     return {
       isIcon: true,

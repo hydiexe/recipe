@@ -28,6 +28,7 @@
 </template>
 <script>
 export default {
+  middleware: ["auth", "check-auth"],
   data() {
     return {
       email: "",

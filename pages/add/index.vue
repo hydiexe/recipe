@@ -69,6 +69,7 @@ import Input from "../../components/newRecipe/Input.vue";
 import TextArea from "../../components/newRecipe/textArea.vue";
 
 export default {
+  middleware: ["auth", "check-auth"],
   data() {
     return {
       newRecipe: {

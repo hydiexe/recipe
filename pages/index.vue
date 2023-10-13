@@ -8,7 +8,7 @@
 import RecipeList from "../components/recipe/RecipeList.vue";
 export default {
   name: "IndexPage",
-  middleware: "check-auth",
+  middleware: ["auth", "check-auth"],
   components: {
     RecipeList,
   },
