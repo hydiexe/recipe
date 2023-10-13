@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{325:function(t,n,c){"use strict";c.r(n);var e={props:["text"]},o=c(33),component=Object(o.a)(e,(function(){var t=this;return(0,t._self._c)("button",{staticClass:"btn btn-success mb-3"},[t._v("\n  "+t._s(t.text)+"\n")])}),[],!1,null,"dc301af0",null);n.default=component.exports}}]);
